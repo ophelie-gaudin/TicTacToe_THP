@@ -1,7 +1,7 @@
 class Player 
   attr_accessor :name, :player_style 
 
-  def initialize(name , player_style)
+  def initialize(player_style)
     puts "Hey, voilà un nouveau joueur! comment t'appelles-tu ? "
     print ">"
     @name= gets.chomp
