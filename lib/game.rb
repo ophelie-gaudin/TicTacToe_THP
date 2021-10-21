@@ -9,8 +9,8 @@ class Game
   
   def initialize
     # créé 2 joueurs, créé un board, met le status à "on going", défini un current_player
-    player1 = Player.new('Pierre' , "X" )
-    player2 = Player.new('michel' , "O" )
+    player1 = Player.new("X" )
+    player2 = Player.new("O" )
     @player1 = player1
     @player2 = player2
     @players= [player1, player2]
